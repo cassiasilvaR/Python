@@ -12,6 +12,8 @@
 #.reverse() devolve a lista em ordem inversa
 #.copy() devolve a cópia de uma lista
 #.pop() remove o último elemento da lista. Pode ter índice ou não como parâmetro
+#del lista[] deleta a lista toda ou um elemento dela 
+#.clear() limpa a lista
 paises = ['Brasil', 'Canadá', 'Venezuela', 'Peru', 'Congo'] #Definindo uma lista
 cidades = ['Belém', 'Chicago', 'Cape Town', 'Paris']
 numeros = [23, 4, 6, 9, 8]
@@ -31,4 +33,4 @@ print(numeros)
 paises.reverse()
 paises2 = paises.copy()
 print(paises)
-#numeros.clear()
+numeros.clear()
